@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>websockets</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>websockets</name>
+	<name>springboot-websockets</name>
 	<description>Spring Boot project with webscokets</description>
 
 	<properties>
