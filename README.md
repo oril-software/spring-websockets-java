@@ -1,9 +1,19 @@
 ### Spring Boot with WebSockets
 
-Introduction
--------------
+Sockets are typically used in dynamic applications that require quick (often near-real time) bi-directional communication between the server and client.
+
+A typical use of sockets would be in applications that include:
+
 - Spring Boot app starts up and sends message via websocket to all subscribed clients
 - The code is intended to show how to create Spring Boot application with websockets support and enable realtime server-to-client communication
+
+Introduction
+-------------
+This app is intended to demonstrate the following:
+
+- Spring Boot app starts up and every two seconds it sends a message that contains the current timestamp via websocket to all subscribed clients
+- The code is intended to show how to create Spring Boot application with websockets support and enable realtime server-to-client communication
+
 
 Prerequisites 
 -------------
